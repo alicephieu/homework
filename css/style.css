@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: red;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: green;
+}
+
+nav a:active {
+    color: pink;
+}
+
+h2 {
+    text-align: center;
+}
+
+#faq {
+    background-color: aliceblue;
+}
+
+#faq p {
+    font-style: italic;
+}
+
+#curriculum {
+    background-color: black;
+    color: white;
+}
+
+#instructor {
+    background-color: lightgray;
+}
+
+#instructor a {
+    color: orangered;
+}
