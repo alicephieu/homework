@@ -9,6 +9,11 @@ nav ul {
     text-decoration: none;
 }
 
+nav ul li {
+    display: inline;
+    padding: 5px 10px;
+}
+
 nav a:link {
     color: red;
     text-decoration: none;
