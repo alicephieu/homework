@@ -50,4 +50,9 @@ h2 {
 
 #instructor a {
     color: orangered;
+    text-decoration: underline;
+}
+
+#instructor article {
+    border: 1px dashed black;
 }
