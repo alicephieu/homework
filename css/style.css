@@ -40,6 +40,15 @@ header, section {
 
 /* Navigation */
 
+#main-navigation {
+    list-style-type: none;
+}
+#main-navigation a {
+    font-weight: bold;
+}
+
+/* FAQ */
+
 #faq {
     background-color: aliceblue;
 }
