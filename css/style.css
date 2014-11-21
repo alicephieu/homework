@@ -1,41 +1,63 @@
-header {
-    text-align: center;
-    background-color: aliceblue;
+/* General styles */
+
+a {
+    text-decoration: none;
+    color: orangered;
 }
 
-nav ul {
-    list-style-type: none;
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    font-size: 2em;
+}
+
+
+header, section {
+    min-height: 100vh;
+}
+
+
+/* Header */
+
+#main-header {
+    text-align: center;
+    background-image: url(../img/laptop.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#main-header h1 {
+    font-size: 4em;
+}
+
+#main-header p {
+    font-variant: small-caps;
+    font-size: 2em;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-nav ul li {
-    display: inline;
-    padding: 5px 10px;
-}
-
-nav a:link {
-    color: red;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: green;
-}
-
-nav a:active {
-    color: pink;
-}
-
-h2 {
-    text-align: center;
-}
+/* Navigation */
 
 #faq {
     background-color: aliceblue;
 }
 
+.faq-list {
+    width: 500px;
+    background-color: rgba(0,0,0,0.5);
+}
+
 #faq p {
+    line-height: 1.5;
+}
+
+#faq .question {
+    font-weight:bold;
+}
+
+#faq .answer {
     font-style: italic;
 }
 
@@ -44,15 +66,18 @@ h2 {
     color: white;
 }
 
+
+/* Instructor */
+
 #instructor {
     background-color: lightgray;
 }
 
-#instructor a {
-    color: orangered;
-    text-decoration: underline;
+#instructor a{
+    text-decoration: underline
 }
 
 #instructor article {
     border: 1px dashed black;
 }
+
