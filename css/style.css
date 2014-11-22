@@ -1,5 +1,10 @@
 /* General styles */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: orangered;
@@ -17,6 +22,15 @@ header, section {
     min-height: 100vh;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+    padding:10px;
+}
 
 /* Header */
 
@@ -25,6 +39,7 @@ header, section {
     background-image: url(../img/laptop.jpg);
     background-size: cover;
     color: white;
+    overflow: hidden;
 }
 
 #main-header h1 {
@@ -36,16 +51,53 @@ header, section {
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
+
 }
+
+#location {
+    width: 250px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+
+#location p {
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
 
 /* Navigation */
 
 #main-navigation {
     list-style-type: none;
+    padding-left: 20px;
+    padding-top: 15px;
+
 }
+
 #main-navigation a {
     font-weight: bold;
+    padding: 5px 20px;
+    border: 1px solid white;
+
 }
+
+#main-navigation li{
+    display: inline-block;
+
+}
+
+.apply {
+    background-color: orangered;
+    color: white;
+}
+
 
 /* FAQ */
 
@@ -54,9 +106,9 @@ header, section {
 }
 
 .faq-list {
-    width: 500px;
-    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
 }
+
 
 #faq p {
     line-height: 1.5;
@@ -70,11 +122,19 @@ header, section {
     font-style: italic;
 }
 
+/* Curriculum */
+
 #curriculum {
     background-color: black;
     color: white;
+
 }
 
+#curriculum ol {
+    background-color: darkgrey;
+    color: black;
+    width: 50%;
+}
 
 /* Instructor */
 
