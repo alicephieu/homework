@@ -1,4 +1,7 @@
-/* General styles */
+/*********************
+GENERAL STYLES
+**********************/
+
 
 * {
     margin: 0;
@@ -10,17 +13,19 @@ a {
     color: orangered;
 }
 
+header, section {
+    min-height: 100vh;
+}
+
+
 section h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
     font-size: 2em;
+    padding: 20px 0;
 }
 
-
-header, section {
-    min-height: 100vh;
-}
 
 nav {
     position: fixed;
@@ -32,7 +37,9 @@ nav {
     padding:10px;
 }
 
-/* Header */
+/*********************
+HEADER
+**********************/
 
 #main-header {
     text-align: center;
@@ -40,10 +47,13 @@ nav {
     background-size: cover;
     color: white;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main-header h1 {
     font-size: 4em;
+    vertical-align: middle;
 }
 
 #main-header p {
@@ -51,7 +61,7 @@ nav {
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
-
+    vertical-align: middle;
 }
 
 #location {
@@ -72,7 +82,9 @@ nav {
 }
 
 
-/* Navigation */
+/*********************
+NAVIGATION
+**********************/
 
 #main-navigation {
     list-style-type: none;
@@ -88,6 +100,12 @@ nav {
 
 }
 
+#main-navigation ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
 #main-navigation li{
     display: inline-block;
 
@@ -99,30 +117,41 @@ nav {
 }
 
 
-/* FAQ */
+/*********************
+FAQ
+**********************/
 
 #faq {
     background-color: aliceblue;
+    text-align: center;
+    min-height: 40vh;
 }
 
-.faq-list {
-    display: inline-block;
+#faq li {
+    float: left;
+    width: 25%;
+    margin: 4%;
+    text-align: center;
+    list-style: none;
+
 }
-
-
 #faq p {
     line-height: 1.5;
 }
 
 #faq .question {
     font-weight:bold;
+    padding-bottom: 10px;
 }
 
 #faq .answer {
     font-style: italic;
 }
 
-/* Curriculum */
+
+/*********************
+CURRICULUM
+**********************/
 
 #curriculum {
     background-color: black;
@@ -134,12 +163,28 @@ nav {
     background-color: darkgrey;
     color: black;
     width: 50%;
+    margin: 0 auto;
 }
 
-/* Instructor */
+#curriculum li {
+
+}
+
+
+/*********************
+INSTRUCTOR
+**********************/
+
 
 #instructor {
     background-color: lightgray;
+    min-height: 40vh;
+
+}
+
+#instructor-content {
+    margin: 0 auto;
+    width: 50%;
 }
 
 #instructor a{
@@ -147,6 +192,14 @@ nav {
 }
 
 #instructor article {
-    border: 1px dashed black;
+
+}
+
+.profile-photo {
+    display: block;
+    float: left;
+    max-width: 100px;
+    margin: 0 30px 0 30px;
+    border-radius: 100%;
 }
 
