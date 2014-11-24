@@ -157,7 +157,7 @@ CURRICULUM
     background-color: black;
     color: white;
     line-height: 1.25em;
-    min-height: 500px;
+    min-height: 700px;
 
 }
 
@@ -166,14 +166,20 @@ CURRICULUM
     background-color: darkgrey;
     margin: 0 auto;
     width: 50%;
-    padding: 30px 50px;
+    padding: 20px 40px;
+    list-style-position: inside;
 }
 
+#curriculum ol > li {
+    border-bottom: 1px dashed black;
+    padding: 10px 0;
+}
 
 #curriculum ol ul {
-    margin-left: 40px;
+    margin: 10px 0 0 40px;
 
 }
+
 
 
 /*********************
