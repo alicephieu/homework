@@ -23,7 +23,7 @@ section h2 {
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
     font-size: 2em;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 
@@ -47,13 +47,12 @@ HEADER
     background-size: cover;
     color: white;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 
 #main-header h1 {
     font-size: 4em;
-    vertical-align: middle;
+    padding-top: 250px;
 }
 
 #main-header p {
@@ -61,7 +60,7 @@ HEADER
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
-    vertical-align: middle;
+    padding-top: 25px;
 }
 
 #location {
@@ -153,20 +152,26 @@ FAQ
 CURRICULUM
 **********************/
 
+
 #curriculum {
     background-color: black;
     color: white;
+    line-height: 1.25em;
+    min-height: 500px;
 
 }
 
 #curriculum ol {
-    background-color: darkgrey;
     color: black;
-    width: 50%;
+    background-color: darkgrey;
     margin: 0 auto;
+    width: 50%;
+    padding: 30px 50px;
 }
 
-#curriculum li {
+
+#curriculum ol ul {
+    margin-left: 40px;
 
 }
 
