@@ -97,7 +97,7 @@ FAQ
 }
 
 .faq-list li {
-    display: inline-block;
+    float: left;
     width: 25%;
 }
 
